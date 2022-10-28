@@ -13,7 +13,7 @@ public class Triangle {
 	}
 	
 	public Triangle(double a, double b, double c) {
-		
+		this.sideA = this.sideB = this.sideC = 1;
 	}
 	
 	private double findPerimeter() {
@@ -22,6 +22,7 @@ public class Triangle {
 	
 	private double findArea() {
 		return 0;
+		Math.PI*Math.pow(area, findArea());
 	}
 	
 	public void printStats() {
