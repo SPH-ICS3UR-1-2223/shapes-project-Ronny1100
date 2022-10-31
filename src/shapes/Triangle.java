@@ -9,7 +9,11 @@ public class Triangle {
 	
 	//Methods
 	public Triangle() {
-		
+		this.sideA=1;
+		this.sideB=1;
+		this.sideC=1;
+		this.perimeter=findPerimeter();
+		this.area=findArea();
 	}
 	
 	public Triangle(double a, double b, double c) {
@@ -17,16 +21,21 @@ public class Triangle {
 	}
 	
 	private double findPerimeter() {
-		return 0;
+		Math.PI * Math.pow(perimeter, getPerimeter());
+		return this.sideA + this.sideB + this.sideC;
 	}
 	
 	private double findArea() {
 		return 0;
-		Math.PI*Math.pow(area, findArea());
 	}
 	
 	public void printStats() {
-		
+		System.out.println("Triangle");
+		System.out.println("SideA = " + this.sideA);
+		System.out.println("SideB = " + this.sideB);
+		System.out.println("SideC = " + this.sideC);
+		System.out.println("Perimeter = " + this.perimeter);
+		System.out.println("Area = " + this.area);
 	}
 
 	public double getSideA() {

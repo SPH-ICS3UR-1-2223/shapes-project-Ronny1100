@@ -11,6 +11,7 @@ public class Rectangle {
 	public Rectangle() {
 		this.length=1;
 		this.width=1;
+		this.area=findArea();
 		this.perimeter = findPerimeter();
 	}
 	
