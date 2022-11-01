@@ -6,7 +6,7 @@ public class Triangle {
 	private double sideC;
 	private double perimeter;
 	private double area;
-	
+	   
 	//Methods
 	public Triangle() {
 		this.sideA=1;

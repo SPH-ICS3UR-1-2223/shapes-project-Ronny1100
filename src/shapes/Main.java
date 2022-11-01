@@ -15,6 +15,26 @@ public class Main {
 			userChoice=in.nextInt();
 			if (userChoice==1) {
 				System.out.println("Make a shape!");
+				System.out.println("Which shape?");
+				else Shape == Rectangle || Shape == Circle || Shape == Triangle;
+				
+				userChoice=in.nextInt();
+			if (userChoice==2) {
+				System.out.println("Change a shape!");
+				System.out.println("Select side length and radius");
+				
+				userChoice=in.nextInt();
+			if (userChoice==3) {
+				System.out.println("View a shape!");
+				
+				
+				
+				userChoice=in.nextInt();
+				if (userChoice==4) {
+					System.out.println("Quit!");
+				}
+					}
+				}
 			}
 		}while (userChoice!=4);
 		
